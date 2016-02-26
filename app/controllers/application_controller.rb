@@ -6,5 +6,9 @@ class ApplicationController < ActionController::Base
   def hello
     render text: "HI HI Sample Pample Apple"
   end
+
+  def goodbye
+    render text: "Goodbye forever"
+  end
   
 end
